@@ -14,12 +14,6 @@
 
           <RouterView />
 
-
-          <!-- <Binding />
-          <Estructura />
-          <Atributos />
-          <Formulario /> -->
-
         </main>
       </div>
     </div>
