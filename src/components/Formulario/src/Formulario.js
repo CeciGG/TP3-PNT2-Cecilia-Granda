@@ -47,8 +47,6 @@ export default {
       if(!email) mensaje = 'Campo requerido'
       else if(!regex.test(email)) mensaje = 'Debe ser un email válido'
 
-      console.log(regex.test(email))
-
       return {
         mensaje: mensaje,
         mostrar: mensaje != '' && this.formDirty.email,
@@ -71,7 +69,6 @@ export default {
     enviar() {
       const datos = { ...this.formData }
       this.listaPersonas.push(datos)
-      console.log(this.listaPersonas)
 
       this.formData = this.getInicialData()
       this.formDirty = this.getInicialData()
