@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-header">
         <header>
-          <h2>Componente Principal (App)</h2>
+          <h2>TP-3</h2>
         </header>
       </div>
 
@@ -21,32 +21,20 @@
 </template>
 
 <script>
-/* Componentes de simple archivo (template, script, style) */
 import Navbar from './components/Navbar.vue';
-
-//import Binding from './components/Binding.vue';
-//import Estructura from './components/Estructura.vue';
-//import Atributos from './components/Atributos.vue';
-
-/* Componentes de múltiples archivos (.html, .js, .css) */
-//import Formulario from './components/Formulario/index.vue'
 
 
 export default {
   name: 'App',
   components: {
-    Navbar,
-    //Binding,
-    //Estructura,
-    //Atributos,
-    //Formulario
+    Navbar
   },
 }
 </script>
 
 <style scoped>
 .card-header {
-  background-color: green;
+  background-color: #a14a99;
   color: white;
 }
 </style>
